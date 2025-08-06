@@ -1,0 +1,87 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkipRush - Login</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #B9A896;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: #6B8E23;
+      padding: 30px 40px;
+      border-radius: 20px;
+      color: white;
+      text-align: center;
+      width: 300px;
+    }
+
+    .login-container h2 {
+      font-family: cursive;
+      margin-bottom: 20px;
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px;
+    }
+
+    .login-container button {
+      padding: 10px 20px;
+      background-color: #FFD700;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .branding {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+    }
+
+    .branding h1 {
+      color: #FFD700;
+      display: inline;
+    }
+
+    .branding span {
+      color: #5B36D9;
+      font-weight: bold;
+      font-size: 28px;
+    }
+
+    .branding p {
+      color: #1C1C1C;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="branding">
+    <h1>Skip<span>Rush</span></h1>
+    <p>Your destination for skipping the long waiting</p>
+  </div>
+
+  <div class="login-container">
+    <h2>Sign up</h2>
+    <input type="text" placeholder="Username" />
+    <input type="password" placeholder="Password" />
+    <button onclick="window.location.href='home.html'">Login</button>
+  </div>
+
+</body>
+</html>
