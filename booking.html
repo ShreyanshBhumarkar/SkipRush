@@ -1,0 +1,88 @@
+<!-- booking.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkipRush - Booking</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #B9A896;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 40px;
+    }
+
+    .info {
+      flex: 1;
+      background-color: white;
+      padding: 20px;
+      border-radius: 20px;
+    }
+
+    .info img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .info p {
+      margin-top: 10px;
+      color: #1C1C1C;
+    }
+
+    .booking {
+      flex: 1;
+      background-color: #FFA500;
+      padding: 30px;
+      border-radius: 20px;
+      color: #5B36D9;
+      font-weight: bold;
+    }
+
+    .rating {
+      color: black;
+      margin-top: 10px;
+    }
+
+    .back-button {
+      margin-top: 30px;
+    }
+
+    .back-button a {
+      background-color: #6B8E23;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="info">
+      <img src="https://via.placeholder.com/300x150" alt="Service">
+      <p><strong>About:</strong> Fast-track service booking. Skip the line and save time.</p>
+      <p><strong>Customer waiting:</strong> Low</p>
+      <p class="rating"><strong>Ratings:</strong> 4/5</p>
+    </div>
+
+    <div class="booking">
+      <h2>Book your appointment</h2>
+      <p>Select date and time to proceed</p>
+
+      <div class="back-button">
+        <a href="home.html">← Back to Home</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
